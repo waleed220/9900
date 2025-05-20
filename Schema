@@ -1,0 +1,160 @@
+{
+  "author": "Tebex",
+  "support_email": "support@tebex.io",
+  "config": [
+      {
+        "header": "Style",
+        "options": [
+              {
+                 "id": "primary-colour",
+                 "name": "Primary Colour",
+                 "default": "#000000",
+                 "description": "Select the primary colour. Set to black (#000000) to revert to theme default colour",
+                 "type": "colour-picker"
+              },
+              {
+                 "id": "primary-colour-hover",
+                 "name": "Primary Colour (Hover)",
+                 "default": "#000000",
+                 "description": "Select the primary colour on hover/focus. Set to black (#000000) to revert to theme default colour",
+                 "type": "colour-picker"
+              },
+              {
+                 "id": "primary-text-colour",
+                 "name": "Primary Button Text Colour",
+                 "default": "#000000",
+                 "description": "Select the primary button text colour. Set to black (#000000) to revert to theme default colour",
+                 "type": "colour-picker"
+              },
+              {
+                 "id": "primary-text-colour-hover",
+                 "name": "Primary Button Text Colour (Hover)",
+                 "default": "#000000",
+                 "description": "Select the primary button text colour on hover/focus. Set to black (#000000) to revert to theme default colour",
+                 "type": "colour-picker"
+              },
+              {
+                 "id": "bg-image",
+                 "name": "Background Image",
+                 "default": "",
+                 "description": "Recommended size: 1920x700",
+                 "type": "image-uploader"
+              },
+              {
+                  "id": "checkout-theme",
+                  "name": "Checkout Theme",
+                  "description": "Set checkout color theme.",
+                  "type": "select",
+                  "default": "Dark",
+                  "values": [
+                      "Default",
+                      "Auto",
+                      "Light",
+                      "Dark"
+                  ]
+              }
+          ]
+      },
+      {
+          "header": "Header",
+          "options": [
+              {
+                 "id": "discord-link",
+                 "name": "Discord Invite Link",
+                 "default": "",
+                 "description": "Enter the URL of your discord invite link.",
+                 "type": "url"
+              },
+              {
+                 "id": "server-url",
+                 "name": "Website URL / Game Server IP",
+                 "default": "",
+                 "description": "Enter the URL or IP address of your server.",
+                 "type": "url"
+              },
+              {
+                 "id": "server-text",
+                 "name": "URL/IP Display Text",
+                 "default": "",
+                 "description": "Enter the text to display instead of Website URL / Game Server IP.",
+                 "type": "textarea"
+              }
+          ]
+      },
+      {
+          "header": "Layout",
+          "options": [
+              {
+                  "id": "home-categories",
+                  "name": "Show Categories On Homepage",
+                  "description": "Show Categories on Homepage.",
+                  "type": "select",
+                  "default": "On",
+                  "values": [
+                      "On",
+                      "Off"
+                  ]
+              },
+              {
+                  "id": "home-sidebar",
+                  "name": "Show Sidebar On Homepage",
+                  "description": "Show Sidebar on Homepage.",
+                  "type": "select",
+                  "default": "On",
+                  "values": [
+                      "On",
+                      "Off"
+                  ]
+              },
+              {
+                  "id": "nav-style",
+                  "name": "Navigation Style",
+                  "description": "Set the location for your navigation.",
+                  "type": "select",
+                  "default": "Vertical Nav in Sidebar",
+                  "values": [
+                      "Horizontal Nav in Header",
+                      "Vertical Nav in Sidebar"
+                  ]
+              },
+              {
+                  "id": "sidebar-position",
+                  "name": "Sidebar Position",
+                  "description": "Set the location of the sidebar.",
+                  "type": "select",
+                  "default": "Left",
+                  "values": [
+                      "Left",
+                      "Right"
+                  ]
+              }
+          ]
+      },
+      {
+          "header": "Sale banner",
+          "options": [
+            {
+               "id": "sale-banner-text",
+               "name": "Sale Banner Text",
+               "default": "",
+               "description": "Leave this field empty if you don't want to show the banner.",
+               "type": "textarea"
+            },
+            {
+               "id": "sale-banner-colour-text",
+               "name": "Sale Banner Text Colour",
+               "default": "#000000",
+               "description": "Select the sale banner text colour. Set to black (#000000) to revert to theme default colour.",
+               "type": "colour-picker"
+            },
+            {
+               "id": "sale-banner-colour-bg",
+               "name": "Sale Banner Background Colour",
+               "default": "#000000",
+               "description": "Select the sale banner background colour. Set to black (#000000) to revert to theme default colour.",
+               "type": "colour-picker"
+            }
+          ]
+      }
+  ]
+}
